@@ -1,0 +1,27 @@
+#page {
+	background: #0000FF;
+	margin: 15%;
+	border: 5px solid black;
+}
+
+html {
+	background: white;
+	font-family: candara; 
+	font-size: 15px;
+}
+
+.entete {
+ 	font-size: 200%;
+ 	text-align: center;
+ }
+
+footer {
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+#aboutme {
+	margin-left: 10%;
+	margin-right: 10%;
+}
