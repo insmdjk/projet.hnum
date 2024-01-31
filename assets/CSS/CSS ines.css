@@ -1,5 +1,5 @@
 html {
-    background-color: #d9c3e3;
+    background-color: #FFC0CB;
     font-size: 14px;
     width: 100%;
 }
@@ -14,9 +14,9 @@ h2 {
 
 #page {
     margin: 0 auto;
-    max-width: 80%; 
-    background-color: #a7d4d7;
-    border: 20px solid #d4d7a7;
+    max-width: 60%; 
+    background-color:#DB7093;
+    border: 20px solid #C71585;
 }
 
 .entete {
@@ -24,7 +24,7 @@ h2 {
 }
 
 #aboutme {
-    #9fe9e7
+    #FFC0CB
 
 
 }
