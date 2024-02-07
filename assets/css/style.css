@@ -1,8 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>URL</key>
-	<string>https://github.com/insmdjk/projet.hnum/blob/main/assets/CSS/CSS%20ines.css</string>
-</dict>
-</plist>
+html {
+    background-color: #d9c3e3;
+    font-size: 14px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2em; 
+}
+
+h2 {
+    font-size: 1.5em; 
+}
+
+#page {
+    margin: 0 auto;
+    max-width: 80%; 
+    background-color: #a7d4d7;
+    border: 20px solid #d4d7a7;
+}
+
+.entete {
+    text-align: center;
+}
+
+#aboutme {
+    #9fe9e7
+
+
+}
+
+footer {
+    text-align: center;
+}
