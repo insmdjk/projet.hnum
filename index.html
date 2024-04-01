@@ -72,8 +72,9 @@
         </tbody>
     </table>
 </div>
+<div>               
 // le texte intégral du poem
-var poem = "Mais il faut triompher du temps et de l'espace,
+<var poem> = "Mais il faut triompher du temps et de l'espace,
 Arriver ou mourir. Les marchands sont jaloux.
 L'or pleut sous les chardons de la vapeur qui passe,
 Le moment et le but sont l'univers pour nous.
@@ -85,30 +86,32 @@ Eh bien ! que tout circule et que les grandes causes
 Sur des ailes de feu lancent les actions,
 Pourvu qu'ouverts toujours aux généreuses choses,
 Les chemins du vendeur servent les passions.
-Béni soit le Commerce au hardi caducée, ";
+Béni soit le Commerce au hardi caducée, ";</var poem>
 
 // Diviser le poem en mots distincts
-var words = text.split(/\s+/);
+<var words >= text.split(/\s+/);
+    </var words>
 
 // Le nombre total de mots
 document.getElementById('total-words').textContent = words.length;
 
 // Créer un tableau avce les mots et les trier par longueur croissante
-var wordLengths = words.map(function(word) {
+<var wordLengths >= words.map(function(word) {
     return { word: word, length: word.length };
 });
 wordLengths.sort(function(a, b) {
     return a.length - b.length;
-});
+});</var wordLenghts>
 
 // Mettre à jour le tableau avec les mots triés
-var tableBody = document.getElementById('word-table').getElementsByTagName('tbody')[0];
+<var tableBody> = document.getElementById('word-table').getElementsByTagName('tbody')[0];
 wordLengths.forEach(function(pair) {
     <var>row = tableBody.insertRow();
     var cell1 = row.insertCell(0);
     var cell2 = row.insertCell(1);
     cell1.textContent = pair.word;
     cell2.textContent = pair.length;
+    </var tableBody
         </var> 
 });
-                
+ </div>                
