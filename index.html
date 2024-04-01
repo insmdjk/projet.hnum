@@ -104,10 +104,11 @@ wordLengths.sort(function(a, b) {
 // Mettre à jour le tableau avec les mots triés
 var tableBody = document.getElementById('word-table').getElementsByTagName('tbody')[0];
 wordLengths.forEach(function(pair) {
-    var row = tableBody.insertRow();
+    <var>row = tableBody.insertRow();
     var cell1 = row.insertCell(0);
     var cell2 = row.insertCell(1);
     cell1.textContent = pair.word;
     cell2.textContent = pair.length;
+        </var> 
 });
                 
